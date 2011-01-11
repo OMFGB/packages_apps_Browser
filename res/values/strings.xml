@@ -452,18 +452,22 @@
     <!-- Do not tranlsate.  Development option -->
     <string-array name="pref_development_ua_choices" translatable="false">
         <item>Android</item>
-        <item>Desktop</item>
+        <item>Froyo</item>
+        <item>Linux Desktop</item>
+        <item>Mac Desktop</item>
         <item>iPhone</item>
         <item>iPad</item>
-        <item>Froyo-N1</item>
+        <item>IE6</item>
     </string-array>
     <!-- Do not tranlsate.  Development option -->
     <string-array name="pref_development_ua_values" translatable="false">
         <item>0</item>
+        <item>4</item>
+        <item>5</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-        <item>4</item>
+        <item>6</item>
     </string-array>
     <string name="pref_development_error_console" translatable="false">Show JavaScript Console</string>
     <!-- Settings screen, setting option name -->
@@ -752,5 +756,6 @@
     <string name="error_console_header_text_maximized" translatable="false">JavaScript console</string>
     <string name="error_console_eval_text_hint" translatable="false">Evaluate JavaScript</string>
     <string name="error_console_eval_button_text" translatable="false">Evaluate</string>
+    <string name="pref_select_user_agent">Select User Agent</string>
 
 </resources>
